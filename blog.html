@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Eric Metcalf - Home</title>
-  <meta name="description" content="Eric Metcalf's personal website - Adventures, Blog, and More">
+  <title>Eric Metcalf - Blog</title>
+  <meta name="description" content="Eric Metcalf's blog - Thoughts, stories, and insights">
 
   <link rel="stylesheet" href="css/main.css">
-  <link rel="canonical" href="http://eric-metcalf.github.io/">
-  <script src="js/markdown-loader.js"></script>
+  <link rel="canonical" href="http://eric-metcalf.github.io/blog.html">
+  <script src="js/blog-loader.js"></script>
 </head>
 
 
@@ -47,20 +47,40 @@
 
     <div class="page-content">
 
-      <!-- Home Section -->
-      <section id="home" class="section">
+      <!-- Blog Section -->
+      <section id="blog" class="section blog-section">
         <div class="wrapper">
-          <div id="home-content">
-            <!-- Content will be loaded from content/home.md -->
+          <h2>Blog</h2>
+          <p class="section-intro">Thoughts, stories, and insights.</p>
+
+          <div id="blog-posts" class="blog-posts">
+            <!-- Blog posts will be loaded from markdown files -->
             <!-- Fallback content if markdown doesn't load -->
-            <h1>Welcome!</h1>
-            <p>My name is Eric Metcalf, and I am a Software Engineer, adventurer, photographer, amateur cook, and curious human being.
-            This is my homepage and where I dump the current stuff I am thinking about. Look forward to more content soon!</p>
-            <p>My CV is <a href="http://eric-metcalf.github.io/cv/cv.pdf">available here</a>.</p>
+
+            <article class="blog-post">
+              <h3 class="post-title"><a href="blog-post.html?post=2024-03-10-example-post-3">Tips for PhD Students</a></h3>
+              <p class="post-meta">March 10, 2024 • Academia</p>
+              <p class="post-excerpt">Some helpful tips and insights for fellow PhD students navigating the challenges of graduate school and research.</p>
+              <a href="blog-post.html?post=2024-03-10-example-post-3" class="read-more">Read More →</a>
+            </article>
+
+            <article class="blog-post">
+              <h3 class="post-title"><a href="blog-post.html?post=2024-02-20-example-post-2">Another Great Adventure</a></h3>
+              <p class="post-meta">February 20, 2024 • Travel</p>
+              <p class="post-excerpt">Sharing some thoughts and experiences from my recent travels. This post demonstrates how easy it is to write blog posts in markdown format.</p>
+              <a href="blog-post.html?post=2024-02-20-example-post-2" class="read-more">Read More →</a>
+            </article>
+
+            <article class="blog-post">
+              <h3 class="post-title"><a href="blog-post.html?post=2024-01-15-example-post-1">My First Blog Post</a></h3>
+              <p class="post-meta">January 15, 2024 • General</p>
+              <p class="post-excerpt">This is an example blog post to demonstrate the markdown-based blog system. You can write your posts in markdown and they'll be automatically displayed on your blog page.</p>
+              <a href="blog-post.html?post=2024-01-15-example-post-1" class="read-more">Read More →</a>
+            </article>
+
           </div>
         </div>
       </section>
-
 
     </div>
 
@@ -74,7 +94,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>Eric Metcalf</li>
-          <li><a href="mailto:emetcalf216@gmail.com">emetcalf216@gmail.com</a></li>
+          <li><a href="mailto:emetcalf@cs.brown.edu">emetcalf@cs.brown.edu</a></li>
         </ul>
       </div>
 
@@ -92,6 +112,8 @@
       </div>
 
       <div class="footer-col footer-col-3">
+        <p>Box 1910, Computer Science Department Brown University Providence, RI 02912
+</p>
       </div>
     </div>
 

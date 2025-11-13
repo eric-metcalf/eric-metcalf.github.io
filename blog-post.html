@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Eric Metcalf - Home</title>
-  <meta name="description" content="Eric Metcalf's personal website - Adventures, Blog, and More">
+  <title>Blog Post - Eric Metcalf</title>
+  <meta name="description" content="Eric Metcalf's blog post">
 
   <link rel="stylesheet" href="css/main.css">
-  <link rel="canonical" href="http://eric-metcalf.github.io/">
-  <script src="js/markdown-loader.js"></script>
+  <link rel="canonical" href="http://eric-metcalf.github.io/blog-post.html">
+  <script src="js/blog-loader.js"></script>
 </head>
 
 
@@ -47,20 +47,30 @@
 
     <div class="page-content">
 
-      <!-- Home Section -->
-      <section id="home" class="section">
+      <!-- Blog Post Section -->
+      <section class="section blog-post-section">
         <div class="wrapper">
-          <div id="home-content">
-            <!-- Content will be loaded from content/home.md -->
-            <!-- Fallback content if markdown doesn't load -->
-            <h1>Welcome!</h1>
-            <p>My name is Eric Metcalf, and I am a Software Engineer, adventurer, photographer, amateur cook, and curious human being.
-            This is my homepage and where I dump the current stuff I am thinking about. Look forward to more content soon!</p>
-            <p>My CV is <a href="http://eric-metcalf.github.io/cv/cv.pdf">available here</a>.</p>
+          <div class="blog-post-container">
+            <p class="back-to-blog"><a href="blog.html">← Back to Blog</a></p>
+
+            <article class="single-post">
+              <p id="post-meta" class="post-meta"></p>
+              <div id="post-content" class="post-content">
+                <!-- Post content will be loaded from markdown file -->
+                <h1>Blog Post</h1>
+                <p>To view blog posts with full markdown support, please use one of these methods:</p>
+                <ol>
+                  <li><strong>Local Testing:</strong> Run a local web server (e.g., <code>python3 -m http.server 8000</code>) and visit <code>http://localhost:8000</code></li>
+                  <li><strong>GitHub Pages:</strong> Push to GitHub Pages and the markdown will load automatically</li>
+                  <li><strong>View on Blog Page:</strong> <a href="blog.html">Return to the blog listing</a> to see all posts</li>
+                </ol>
+              </div>
+            </article>
+
+            <p class="back-to-blog"><a href="blog.html">← Back to Blog</a></p>
           </div>
         </div>
       </section>
-
 
     </div>
 
@@ -74,7 +84,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>Eric Metcalf</li>
-          <li><a href="mailto:emetcalf216@gmail.com">emetcalf216@gmail.com</a></li>
+          <li><a href="mailto:emetcalf@cs.brown.edu">emetcalf@cs.brown.edu</a></li>
         </ul>
       </div>
 
@@ -92,6 +102,8 @@
       </div>
 
       <div class="footer-col footer-col-3">
+        <p>Box 1910, Computer Science Department Brown University Providence, RI 02912
+</p>
       </div>
     </div>
 
