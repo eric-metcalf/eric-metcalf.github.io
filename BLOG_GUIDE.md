@@ -171,16 +171,21 @@ function example() {
 
 ✅ **Proper spacing is now automatic!**
 
-- Blank lines between paragraphs create proper spacing
+- **Blank lines** (double newline) create new paragraphs
+- **Single newlines** within text are treated as spaces (standard markdown)
 - Lists are automatically spaced from surrounding content
 - Headers have appropriate margins
 - Code blocks are properly separated
 
+**Important:** To create a new paragraph, use a blank line. Single newlines join text with a space.
+
 Example:
 ```markdown
-This is a paragraph.
+This is a paragraph that spans
+multiple lines in the source but
+will appear as one paragraph.
 
-This is another paragraph with proper spacing.
+This is a new paragraph with proper spacing.
 
 - List item 1
 - List item 2

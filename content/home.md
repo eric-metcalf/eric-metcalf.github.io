@@ -1,6 +1,7 @@
 # Welcome!
 
-My name is Eric Metcalf, and I am a Software Engineer, adventurer, photographer, amateur cook, and curious human being.
-This is my homepage and where i dump the current stuff I am thinking about. Look forward to more content soon!
+My name is Eric Metcalf, and i am a software engineer, adventurer, photographer, amateur cook, and curious human being.
+This is my homepage and where i dump the current stuff i am thinking about. Right now i am interested in building things
+and am excited to see where it goes.
 
-My resume is [available here](http://eric-metcalf.github.io/resume/resume.pdf).
+Look forward to more content soon!
