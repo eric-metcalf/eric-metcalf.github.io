@@ -1,6 +1,6 @@
 
 
-# Creating a Travel Journal for the Pacific Crest Trail
+# Creating a Travel [Journal](https://eric-metcalf.github.io/pct-map-website/) for the Pacific Crest Trail
 
 I have spent a bunch of time thinking about how I want to share my experience of the pct and have found it
 very interesting to see what peaks peoples interest. I have done slide shows, answered several questions and played with a few different formats.
@@ -29,7 +29,7 @@ hike should be to not die, and shortly followed by not driving your mother crazy
 So insert solution 1, text my family using a satellite communicator that I am alive before I go to bed every single night. 
 Highly recommend this, worked really well, till i lost my spoon. (story for another day)
 
-After investigating this garmin inReach more, I noticed IT HAD the ability to allow you to send your location along with the text.  Sending these messages would allow me to KNOW ALL THE PLACES I HAVE CAMPED ALONG THE TRAIL! booooya. 
+After investigating this garmin inReach more, I noticed it had the ability to allow you to send your location along with the text.  Sending these messages would allow me to KNOW ALL THE PLACES I HAVE CAMPED ALONG THE TRAIL! booooya. 
 Being the software engineer I am, I started making standard formats for each message, and knew at the end of the trail I wanted to put all of them on one map, to be a cool illustration of where i stayed along the trail.
 
 After a day of hacking and figuring out how to parse json files of the text message dumps i was able to put together this website that has the information.
