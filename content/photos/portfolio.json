@@ -1,0 +1,25 @@
+{
+  "title": "Photography Portfolio",
+  "description": "A collection of my favorite photo albums from adventures around the world.",
+  "albums": [
+    {
+      "id": "patagonia",
+      "title": "Torres Del Paine, Patagonia",
+      "location": "Torres Del Paine, Patagonia",
+      "description": "These are photos I took from my trip to Torres Del Paine in Patagonia.",
+      "image": "content/photos/album_1/torres_del_paine.jpg",
+      "alt": "Torres Del Paine, Patagonia",
+      "albumLink": "https://photos.app.goo.gl/vuo4NPtftbM5m2Cd8"
+    },
+    {
+      "id": "pct",
+      "title": "Pacific Crest Trail",
+      "location": "California, Oregon, Washington",
+      "description": "A series of photos documenting my pct adventure.",
+      "image": "content/photos/album_1/IMG_1733.jpeg",
+      "alt": "Pacific Crest Trail",
+      "albumLink": "https://photos.app.goo.gl/WFeDTrrWkZyWZRNf7"
+    }
+  ]
+}
+
