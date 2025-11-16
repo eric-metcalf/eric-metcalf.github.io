@@ -16,24 +16,27 @@ I am really tempted from this point on, to try and keep track of the different q
 The main point, people are interested in my adventure and will say that it is a trip of a lifetime and I agree. I want to cherish it and find ways relive the 
 experience. Here enters the travel journal.
 
-But when it boils down to, there are a few things that I am not the best at, and one is writing, (as i sit here and write this post) 
+But when I think about it... there is one thing I do not enjoy doing: writing. 
 
 I still wanted a way to track and remember the trip without having to sit down and write about every single experience. So this is where I started thinking
 about putting together a different type of travel journal: One that allows me to remember the things along the trip, while being able to share the experience
 with others, and not having to write a bunch of mediocre blog posts. Enter my friend: Data. 
 
+Note: I do realize that it is important to share parts of my journey so that I do not forget them, and others can appreciate but am trying to find other mediums to play with! 
+so I will write about them here. 
+
 ### A little bit of background
 
 So when you venture out on a trip like this, it is really important to let the people in your life that you are safe. Goal number one of the
 hike should be to not die, and shortly followed by not driving your mother crazy by thinking that you are not safe and that you have gone missing. 
-So insert solution 1, text my family using a satellite communicator that I am alive before I go to bed every single night. 
-Highly recommend this, worked really well, till i lost my spoon. (story for another day)
+So insert solution 1, text family using a satellite communicator that I am alive before I go to bed every single night. 
+Highly recommend this, worked really well, till I lost my spoon. (story for another day)
 
 After investigating this garmin inReach more, I noticed it had the ability to allow you to send your location along with the text.  Sending these messages would allow me to KNOW ALL THE PLACES I HAVE CAMPED ALONG THE TRAIL! booooya. 
 Being the software engineer I am, I started making standard formats for each message, and knew at the end of the trail I wanted to put all of them on one map, to be a cool illustration of where i stayed along the trail.
 
-After a day of hacking and figuring out how to parse json files of the text message dumps i was able to put together this website that has the information.
-I am going to be building it out more but thought i would just write this up to share the idea!
+After a day of hacking and figuring out how to parse json files of the text message dumps I was able to put together this website that has the information.
+I am going to be building it out more but thought I would just write this up to share the idea!
 
 Here is the first pass on the [Journal](https://eric-metcalf.github.io/pct-map-website/).
 

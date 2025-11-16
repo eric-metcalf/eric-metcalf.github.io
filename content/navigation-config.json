@@ -1,0 +1,22 @@
+{
+  "siteTitle": "Eric Metcalf",
+  "links": [
+    {
+      "name": "Home",
+      "url": "index.html"
+    },
+    {
+      "name": "Photography",
+      "url": "photography.html"
+    },
+    {
+      "name": "Blog",
+      "url": "blog.html"
+    },
+    {
+      "name": "Connect",
+      "url": "social.html"
+    }
+  ]
+}
+
